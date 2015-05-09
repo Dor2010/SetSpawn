@@ -1,0 +1,19 @@
+main: com.dorian.setspawn.Main
+name: SetSpawn
+version: 0.1	
+author: Dor2010
+description: Set the spawn and teleport to the spawn.
+commands:
+    spawn:
+        description: Teleport to the spawn
+        aliases: [lobby, hub]
+    setspawn:
+        description: Set the world spawn
+        aliases: [setlobby, sethub]
+permissions:
+  spawn.set:
+    description: Permet de set le spawn
+    default: op
+  spawn.tp:
+    description: Permet de se tp au spawn du monde
+    default: op
